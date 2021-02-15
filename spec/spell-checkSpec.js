@@ -8,4 +8,8 @@ it('checks if the word does not match', function(){
     expect(spellcheck('adds')).toBe('~adds~')
 }) 
 
+it('checks if the word matches with capitals', function(){
+    expect(spellcheck('Add')).toBe('Add')
+}) 
+
 })

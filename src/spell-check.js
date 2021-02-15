@@ -1,7 +1,9 @@
 function spellcheck(word){
  let words = ['add']
+ let check = word.toLowerCase();
 
-   if( words.includes(word)){
+    
+   if( words.includes(check)){
        return word
        //console.log(word)
    } else{
