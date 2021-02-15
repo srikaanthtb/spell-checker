@@ -5,7 +5,7 @@ function spellcheck(word){
        return word
        //console.log(word)
    } else{
-       return `${word} ~`
+       return `~${word}~`
        // console.log(`${word} ~`)
    }
 
