@@ -12,4 +12,7 @@ it('checks if the word matches with capitals', function(){
     expect(spellcheck('Add')).toBe('Add')
 }) 
 
+it('checks if the word does not matche with capitals', function(){
+    expect(spellcheck('Adds')).toBe('~Adds~')
+}) 
 })
